@@ -1,18 +1,21 @@
-# vue-maze-generator
+# Vue Maze Generator
 
-> A Vue maze generator
+> A simple Vue.js app which generates a random maze using the Binary Tree algorithm.
 
-## Build Setup
+This app was created as a way to try out Vue.js.
+
+## What does it look like?
+
+![A picture of a maze](maze.jpg?raw=true "It's Amazing!")
+
+## Running it
 
 ``` bash
-# install dependencies
 npm install
-
-# serve with hot reload at localhost:8080
-npm run dev
-
-# build for production with minification
-npm run build
+npm test # to run tests
+npm run dev # Then go to http://localhost:8080/
 ```
 
-For detailed explanation on how things work, consult the [docs for vue-loader](http://vuejs.github.io/vue-loader).
+## Acknowegements
+
+The idea was based on the second chapter of [Mazes for Programmers](https://pragprog.com/book/jbmaze/mazes-for-programmers) and the Javascript code here borrows a lot from the Ruby sample code in the book.
