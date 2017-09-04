@@ -1,11 +1,18 @@
 <template>
   <div id="app">
+    <h1>It's Amazing!</h1>
+    <Maze></Maze>
   </div>
 </template>
 
 <script>
+import Maze from './Maze.vue'
+
 export default {
   name: 'app',
+  components: {
+    Maze
+  },
   created () {
     this.$store.dispatch('generateMaze')
   }
