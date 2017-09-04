@@ -1,4 +1,4 @@
-import Grid from '../../src/api/Grid'
+import Grid from './Grid'
 
 const BinaryTree = class {
   static on(grid) {

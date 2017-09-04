@@ -1,4 +1,4 @@
-import Cell from '../../src/api/Cell'
+import Cell from './Cell'
 
 const Grid = class {
   constructor({rows, columns}) {
