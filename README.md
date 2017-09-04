@@ -4,9 +4,11 @@
 
 This app was created as a way to try out Vue.js.
 
+Refresh the page for a new maze!
+
 ## What does it look like?
 
-![A picture of a maze](maze.jpg?raw=true "It's Amazing!")
+![A picture of a maze](maze.png?raw=true "It's Amazing!")
 
 ## Running it
 
