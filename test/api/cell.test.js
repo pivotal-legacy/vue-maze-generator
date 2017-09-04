@@ -1,5 +1,5 @@
 import test from 'ava';
-import Cell from '../../src/api/cell'
+import Cell from '../../src/api/Cell'
 
 test('it should have a position', t => {
   const cell = new Cell({row: 0, column: 1})
